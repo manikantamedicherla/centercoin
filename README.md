@@ -1,0 +1,2 @@
+# centercoin
+centercoin
