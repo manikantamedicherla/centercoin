@@ -1,0 +1,3 @@
+ 2029  yarn build
+ 2030  cp tickets ./build/static/media/ -r
+ 2031  firebase deploy -m "reduced time in login"

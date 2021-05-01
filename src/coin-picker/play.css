@@ -1,0 +1,50 @@
+:root {
+    /* --main-px-param: calc(100%); */
+    --main-px-param: 300px;
+  }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 85vw; */
+    width: 300px;
+    /* width: 500px;
+    max-height: 500px; */
+    /* width: var(--main-px-param); */
+    /* max-height: var(--main-px-param); */
+    /* box-sizing: border-box; */
+    /* border: 1px solid red; */
+}
+.container-item {
+    border: 1px solid blueviolet;
+    width: 30px;
+    height: 30px;
+    margin: 1.5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex;
+}
+.container-item-child{
+    margin: auto;
+    /* text-align: center; */
+}
+.btn{
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+    background: none;
+    cursor: pointer;
+    /* border: 1px solid#ff9d55 ; */
+    /* background-color: #ff9d55; */
+    border: none;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    backdrop-filter: blur(25px);
+}
+.pick-number{
+    font-size: 4rem;
+    /* padding: 0; */
+}
+.pick-number > small{
+    font-size: 0.7rem;
+}

@@ -1,0 +1,16 @@
+.btn-home{
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+    background: none;
+    cursor: pointer;
+    /* border: 1px solid#ff9d55 ; */
+    /* background-color: #ff9d55; */
+    border: none;
+    /* box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5); */
+    border-radius: 4px;
+    /* backdrop-filter: blur(25px); */
+}
+.btn-link {
+    font-size: 1.3rem;
+}
